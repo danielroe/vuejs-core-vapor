@@ -39,7 +39,7 @@ declare module '@vue/reactivity' {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   interface GlobalComponents {
     Transition: DefineComponent<TransitionProps>
     TransitionGroup: DefineComponent<TransitionGroupProps>
